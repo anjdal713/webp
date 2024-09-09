@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d319699-67c5-4188-9e58-c88ac4a37196" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/cinehub.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/cinehub.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/ChatRoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/ChatRoomController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/service/UserSecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/service/UserSecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/user/UserInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/templates/chat_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../build/resources/main/templates/login_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../build/resources/main/templates/signup_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserController.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserInformation.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserService.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/CinehubApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/CinehubApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/FileUploadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/FileUploadDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/KakaoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/KakaoLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/NaverLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/NaverLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalOauth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalOauth2UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/S3FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/S3FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/SocialLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/SocialLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2loXXZnoQRELSEOMcf2XsWVxfQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.week1.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/home/clarice/Desktop/project/webprogramming/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/clarice/Desktop/project/webprogramming/src/main.js",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="week1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webprogramming/src/week1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.week1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d319699-67c5-4188-9e58-c88ac4a37196" name="Changes" comment="" />
+      <created>1725847443839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725847443839</updated>
+      <workItem from="1725847444236" duration="529000" />
+      <workItem from="1725848049811" duration="2832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
