@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 4</title>
+</head>
+<body>
+
+<div id="direct">
+
+</div>
+
+<div id="literal">
+    <script>
+        let Subject = {
+            korName: "웹프로그래밍",
+            engName: "Web Programming",
+            classCode: "V024003",
+            nStudent: 0,
+
+            register: function() {
+                this.nStudent += 1;
+            },
+
+            unregister: function() {
+                this.nStudent -= 1;
+            },
+
+            getStudentCount: function() {
+                return this.nStudent;
+            }
+        }
+        document.write("<h2>2. 리터럴 만들기</h2>")
+        document.write("교과목 이름 = " + Subject.korName);
+        document.write("<br>");
+        document.write("등록 학생 수 = " + Subject.nStudent);
+        document.write("<br>");
+        Subject.register();
+        document.write("after register, 등록 학생 수 = " + Subject.getStudentCount());
+    </script>
+</div>
+
+<div id=""
+</div>
+</body>
+</html>
