@@ -12,35 +12,71 @@
 
 <div id="literal">
     <script>
-        let Subject = {
+
+        function register() {
+            this.nStudent += 1;
+        }
+
+        function unregister() {
+            this.nStudent -= 1;
+        }
+
+        function getStudentCount() {
+            return this.nStudent;
+        }
+
+        let Subject1 = new Object();
+        Subject1.korName = "웹프로그래밍";
+        Subject1.engName = "Web Programming";
+        Subject1.classCode = "V024003";
+        Subject1.nStudent = 0;
+        Subject1.register = register;
+        Subject1.unregister = unregister;
+        Subject1.getStudentCount = getStudentCount;
+
+        let Subject2 = {
             korName: "웹프로그래밍",
             engName: "Web Programming",
             classCode: "V024003",
             nStudent: 0,
+            register: register,
+            unregister: unregister,
+            getStudentCount: getStudentCount
 
-            register: function() {
-                this.nStudent += 1;
-            },
-
-            unregister: function() {
-                this.nStudent -= 1;
-            },
-
-            getStudentCount: function() {
-                return this.nStudent;
-            }
         }
-        document.write("<h2>2. 리터럴 만들기</h2>")
-        document.write("교과목 이름 = " + Subject.korName);
+
+
+        let Subject3 = Object.create(Subject1);
+        Subject3.nStudent = 0;
+
+        document.write("<h2>1. 직접 객체 만들기</h2>")
+        document.write("교과목 이름 = " + Subject1.korName);
         document.write("<br>");
-        document.write("등록 학생 수 = " + Subject.nStudent);
+        document.write("등록 학생 수 = " + Subject1.nStudent);
         document.write("<br>");
-        Subject.register();
-        document.write("after register, 등록 학생 수 = " + Subject.getStudentCount());
+        Subject1.register();
+        document.write("after register, 등록 학생 수 = " + Subject1.getStudentCount());
+        document.write("<br>");
+
+        document.write("<h2>2. 리터럴 표기법</h2>")
+        document.write("교과목 이름 = " + Subject2.korName);
+        document.write("<br>");
+        document.write("등록 학생 수 = " + Subject2.nStudent);
+        document.write("<br>");
+        Subject2.register();
+        document.write("after register, 등록 학생 수 = " + Subject2.getStudentCount());
+        document.write("<br>");
+
+        document.write("<h3>3. 프로토타입</h3>")
+        document.write("교과목 이름 = " + Subject3.korName);
+        document.write("<br>");
+        document.write("등록 학생 수 = " + Subject3.nStudent);
+        document.write("<br>");
+        Subject3.register();
+        document.write("after register, 등록 학생 수 = " + Subject3.getStudentCount());
     </script>
 </div>
 
-<div id=""
-</div>
+
 </body>
 </html>
