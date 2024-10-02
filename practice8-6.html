@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 8-6</title>
+</head>
+<body>
+<h3>innerHTML</h3>
+<hr>
+<p id="destination" onclick="Prompt();">이번 여름에는 어디로 갈까요?</p>
+<script>
+    function Prompt() {
+        let text = prompt("HTML 텍스트 혹은 그냥 텍스트를 입력하세요");
+        let p = document.getElementById("destination");
+        p.innerHTML = text;
+    }
+</script>
+<p></p>
+</body>
+</html>
