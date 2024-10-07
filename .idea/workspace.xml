@@ -84,28 +84,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.practice8-10.html.executor": "Run",
-    "JavaScript Debug.practice8-4.html.executor": "Run",
-    "JavaScript Debug.practice8-6.html.executor": "Run",
-    "JavaScript Debug.practice8-9.html.executor": "Run",
-    "JavaScript Debug.week1.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/clarice/Desktop/project/webp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/clarice/Desktop/project/webprogramming/src/main.js",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.practice8-10.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.practice8-4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.practice8-6.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.practice8-9.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.week1.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/clarice/Desktop/project/webp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/clarice/Desktop/project/webprogramming/src/main.js&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\webpr\webp" />
@@ -142,6 +142,7 @@
       <workItem from="1727061209369" duration="4045000" />
       <workItem from="1727693017587" duration="1365000" />
       <workItem from="1727850023037" duration="2263000" />
+      <workItem from="1728272768232" duration="23000" />
     </task>
     <servers />
   </component>
