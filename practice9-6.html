@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onwheel</title>
+    <script>
+        let imgfactor = 1;
+        let img;
+        let originalWidth, originalHeight;
+        window.onload = function() {
+            img = document.getElementById("flower");
+            originalWidth = img.width;
+            originalHeight = img.height;
+        };
+        function wheel(e, obj) {
+            e.preventDefault();
+
+            if(e.deltaY < 0) {
+                imgfactor += 0.05;
+                if(imgfactor < 0)
+                    imgfactor = 0;
+            }
+            else if(e.deltaY > 0) {
+                imgfactor -= 0.05;
+                if(imgfactor < 0)
+                    imgfactor = 0;
+            }
+            img.style.width = originalWidth * imgfactor + "px";
+            img.style.height = originalHeight * imgfactor + "px";
+        }
+    </script>
+</head>
+<body>
+<h2>마우스 휠을 이용한 이미지 확대/축소</h2>
+<hr>
+이미지 위에 휠을 위로 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대됩니다.
+<br>
+<img id="flower" src="./Images/flower.jpg" width="400px" height="400px" onwheel="wheel(event, this)" alt="">
+</body>
+</html>
