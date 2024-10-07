@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>라디오 버튼과 이미지 출력</title>
+  <script>
+    function radioSelected() {
+      let click = null;
+      let fruit = document.getElementsByName("fruits");
+      let img = new Image();
+      img.width = 225;
+      img.height = 225;
+      let oldimg = document.getElementById("oldimg");
+      if (oldimg != null) {
+          oldimg.parentElement.removeChild(oldimg);
+      }
+      let parent = document.getElementById('parent');
+      for (let i = 0; i < fruit.length; i++) {
+          if(fruit[i].checked === true)
+              click = fruit[i];
+      }
+      if (click === fruit[0])
+          img.src = "./Images/banana.jpeg";
+      if (click === fruit[1])
+          img.src = "./Images/mango.jpeg";
+      if (click === fruit[2])
+          img.src = "./Images/apple.jpg";
+      parent.appendChild(img);
+      img.setAttribute('id', 'oldimg');
+    }
+  </script>
+</head>
+<body>
+<h2>라디오 버튼을 클릭하면 이미지를 출력합니다.</h2>
+<hr>
+<form id="parent">
+  <input type="radio" name="fruits" value="banana" onclick="radioSelected()">바나나
+  <input type="radio" name="fruits" value="mango" onclick="radioSelected()">망고
+  <input type="radio" name="fruits" value="apple" onclick="radioSelected()">사과
+    <br>
+</form>
+
+</body>
+</html>

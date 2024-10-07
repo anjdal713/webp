@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>계산기 만들기</title>
+<script>
+    function calculate() {
+        let exp = document.getElementById("exp");
+        let result = document.getElementById("result");
+        result.value = eval(exp.value);
+    }
+    function enterKeyDown(e) {
+        let str = "";
+        str += e.key;
+        console.log(str);
+        if (str === "Enter")
+            calculate();
+    }
+
+</script>
+</head>
+<body>
+<h3>계산기 만들기</h3>
+<hr>
+수식을 입력하고 Enter를 입력하세요.
+<br>
+<form>
+    식 <input type="text" id="exp" value="" onkeydown="enterKeyDown(event)"><br>
+    값 <input type="text" id="result"><br>
+</form>
+</body>
+</html>
