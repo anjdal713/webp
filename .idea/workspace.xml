@@ -96,7 +96,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/clarice/Desktop/project/webp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webpr/webp/selfstudy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -108,10 +108,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webpr\webp\selfstudy" />
       <recent name="D:\webpr\webp" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webpr\webp\selfstudy" />
       <recent name="D:\webpr\webp\selfstudy\resources" />
     </key>
   </component>
@@ -148,7 +150,9 @@
       <workItem from="1728272768232" duration="23000" />
       <workItem from="1728272856317" duration="6616000" />
       <workItem from="1728567325189" duration="2584000" />
-      <workItem from="1728623321587" duration="2207000" />
+      <workItem from="1728623321587" duration="4441000" />
+      <workItem from="1728632185550" duration="4376000" />
+      <workItem from="1728808063758" duration="6899000" />
     </task>
     <servers />
   </component>
