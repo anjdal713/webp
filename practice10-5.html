@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>setTimeout()/clearTimeout()</title>
+</head>
+<body>
+<h2>div 태그에 시계 만들기</h2>
+<hr>
+<div id="clock">
+</div>
+<script>
+    let div = document.getElementById("clock");
+    let now = new Date();
+    showTime();
+
+    function showTime() {
+        now = new Date();
+        div.innerHTML = now.toLocaleTimeString();
+        setTimeout(showTime, 1000);
+    }
+</script>
+</body>
+</html>
