@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>암호를 대라.</title>
+</head>
+<body>
+<h2>암호를 입력하라!</h2>
+<hr>
+<script>
+  function passwordCheck() {
+    let userInput = prompt("암호를 대라");
+    if (userInput === "you") {
+      document.write("<p>통과!</p>");
+    }
+    else {
+      passwordCheck();
+    }
+  }
+  passwordCheck();
+</script>
+</body>
+</html>

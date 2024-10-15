@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<script>
+  function big(num1, num2) {
+    if (!isNaN(parseInt(num1)) && !isNaN(parseInt(num2))) {
+      return Math.max(parseInt(num1), parseInt(num2));
+    }
+    else {
+      document.write("입력 오류");
+    }
+
+  }
+</script>
+<script>
+  let b = big("625", "555");
+  document.write("큰수=" + b);
+</script>
+</body>
+</html>

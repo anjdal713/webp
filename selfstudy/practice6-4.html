@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>월화수목금토일</title>
+</head>
+<body>
+<h2>월화수목금토일</h2>
+<hr>
+<script>
+    function dayCheck() {
+        const weekdays = ["월", "화", "수", "목"];
+        const weekends = ["금", "토", "일"];
+        let week = prompt("월화수목금토일 중에서 입력하세요");
+
+        if (weekdays.includes(week)) {
+            document.write("<p>" + week + "는 출근" + "</p>");
+        } else if (weekends.includes(week)) {
+            document.write("<p>" + week + "는 쉬는 날" + "</p>");
+        } else {
+            document.write("<p>입력오류</p>");
+        }
+    }
+    dayCheck();
+</script>
+</body>
+</html>

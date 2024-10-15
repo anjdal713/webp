@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>큰 자리수와 낮은자리수</title>
+</head>
+<body>
+<h2>큰 자리수와 낮은자리수 같은지 비교</h2>
+<hr>
+<script>
+    let num = prompt("숫자 입력");
+    let parseNum = parseInt(num);
+    let isSameDigit = false;
+
+    if (!isNaN(parseNum)) {
+        let minDigit = parseNum % 10;
+        // console.log("minDigit:" + minDigit);
+        let maxDigit = 0;
+
+        while(parseNum > 0) {
+            if (Math.floor(parseNum / 10) === 0) {
+                maxDigit = parseNum;
+                // console.log("maxDigit:" + maxDigit);
+            }
+            parseNum = Math.floor(parseNum / 10);
+        }
+        isSameDigit = (minDigit === maxDigit);
+        // console.log("isSameDigit:" + isSameDigit);
+        document.write(isSameDigit ? num + ": 같음" : num + ": 다름");
+    } else {
+        document.write("입력 오류");
+    }
+
+</script>
+</body>
+</html>

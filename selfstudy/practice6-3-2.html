@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document.write()</title>
+</head>
+<body>
+<script>
+    document.write("<h2>document.write()로 표만들기</h2>");
+    document.write("<hr>");
+    document.write("<table style='border: 1px solid black;'>");
+    document.write("<thead>");
+    document.write("<tr>");
+    document.write("<th style='font-weight:bold; border: 1px solid black;'>n</th>");
+
+    for(let i = 0; i <= 9; i++) {
+        document.write("<td style='border: 1px solid black;'>" + i + "</td>");
+    }
+
+    document.write("</tr>");
+    document.write("</thead>");
+    document.write("<tfoot>");
+    document.write("<tr>");
+    document.write("<th style='font-weight: bold; border: 1px solid black;'>n^2</th>");
+
+    for(let i = 0; i <= 9; i++) {
+        document.write("<td style='border: 1px solid black;'>" + (i * i) + "</td>");
+    }
+
+    document.write("</tr>");
+    document.write("</tfoot>");
+    document.write("</table>");
+</script>
+</body>
+</html>
