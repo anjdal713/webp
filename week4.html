@@ -42,12 +42,18 @@
             register: register,
             unregister: unregister,
             getStudentCount: getStudentCount
-
         }
 
+        function Subject3(korName, engName, classCode, nStudent) {
+            this.korName = korName;
+            this.engName = engName;
+            this.classCode = classCode;
+            this.nStudent = nStudent;
 
-        let Subject3 = Object.create(Subject1);
-        Subject3.nStudent = 0;
+            this.register = function() { this.nStudent += 1; }
+            this.unregister = function () { this.nStudent -= 1; }
+            this.getStudentCount = function () { return this.nStudent; }
+        }
 
         document.write("<h2>1. 직접 객체 만들기</h2>")
         document.write("교과목 이름 = " + Subject1.korName);
@@ -68,12 +74,13 @@
         document.write("<br>");
 
         document.write("<h3>3. 프로토타입</h3>")
-        document.write("교과목 이름 = " + Subject3.korName);
+        let subject3 = new Subject3("웹프로그래밍", "Web Programming", "V024003", 0);
+        document.write("교과목 이름 = " + subject3.korName);
         document.write("<br>");
-        document.write("등록 학생 수 = " + Subject3.nStudent);
+        document.write("등록 학생 수 = " + subject3.nStudent);
         document.write("<br>");
-        Subject3.register();
-        document.write("after register, 등록 학생 수 = " + Subject3.getStudentCount());
+        subject3.register();
+        document.write("after register, 등록 학생 수 = " + subject3.getStudentCount());
     </script>
 </div>
 

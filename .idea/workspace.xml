@@ -56,6 +56,7 @@
       <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4.html" beforeDir="false" afterPath="$PROJECT_DIR$/week4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.practice3-1.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.practice4-1.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.practice4-2.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.practice4-3.html.executor&quot;: &quot;Run&quot;,
@@ -101,6 +103,7 @@
     &quot;JavaScript Debug.practice8-6.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.practice8-9.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.week1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.week4.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -166,6 +169,8 @@
       <workItem from="1728899011831" duration="596000" />
       <workItem from="1728984332300" duration="5809000" />
       <workItem from="1729003519022" duration="8492000" />
+      <workItem from="1729055358351" duration="271000" />
+      <workItem from="1729056494651" duration="27000" />
     </task>
     <servers />
   </component>
