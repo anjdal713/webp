@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열 분할</title>
+</head>
+<body>
+<h3>문자열 분할</h3>
+<hr>
+<script>
+    let inputString = prompt("문자열 입력");
+    let splitArray = [];
+    splitArray = inputString.split("&");
+    console.log(splitArray);
+    for (let i = 0; i < splitArray.length; i++) {
+        document.write(splitArray[i] + "<br>");
+    }
+
+</script>
+</body>
+</html>

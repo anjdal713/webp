@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>방문 시간</title>
+</head>
+<body>
+<h3>일요일은 pink, 다른 요일은 gold 배경</h3>
+<hr>
+<script>
+  let time = new Date();
+  let day = ["일", "월", "화", "수", "목", "금", "토"];
+  document.write("오늘 : ");
+  document.write(time.getDate(), "일,");
+  document.write(day[time.getDay()], "요일");
+  if (1 <= day[time.getDay()]) {
+    document.body.style.backgroundColor  = "gold";
+  } else {
+    document.body.style.backgroundColor = "pink";
+  }
+</script>
+</body>
+</html>
