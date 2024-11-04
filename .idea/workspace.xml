@@ -56,12 +56,19 @@
       <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice9-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice9-2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,8 +84,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.ex12-1.html.executor": "Run",
     "JavaScript Debug.ex13-10.html.executor": "Run",
+    "JavaScript Debug.practice13-6.html.executor": "Run",
     "JavaScript Debug.practice4-5.html.executor": "Run",
     "JavaScript Debug.practice9-2.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -109,7 +118,7 @@
       <updated>1730080199968</updated>
       <workItem from="1730080202729" duration="1669000" />
       <workItem from="1730091769731" duration="51000" />
-      <workItem from="1730685627613" duration="289000" />
+      <workItem from="1730685627613" duration="1654000" />
     </task>
     <servers />
   </component>
