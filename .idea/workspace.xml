@@ -20,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/../.idea/modules/cinehub.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/cinehub.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UML/actor-db.drawio.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/ChatRoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/com/Discipline/cinehub/controller/ChatRoomController.class" afterDir="false" />
@@ -39,22 +40,53 @@
       <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/UserService.class.uniqueId3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/CinehubApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/CinehubApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/FileUploadDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/FileUploadDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/KakaoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/KakaoLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/NaverLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/NaverLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalOauth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalOauth2UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/S3FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/S3FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/SocialLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/SocialLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/CinehubApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/chat/Socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/chat/socket.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/ActorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/ActorRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/ChatRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/ActorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/ChatDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/FileUploadDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/ThumbnailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/entity/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/entity/Thumbnail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/entity/item/GenderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/repository/ActorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/repository/ChatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/repository/ThumbnailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/request/ActorRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/ActorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/KakaoLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/NaverLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/PrincipalOauth2UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/S3FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/SocialLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/ThumbnailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserSecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/user/UserCreateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/Discipline/cinehub/user/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/actor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/chatroom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/roomlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/signup_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/Discipline/cinehub/CinehubApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,21 +122,30 @@
     "JavaScript Debug.practice13-6.html.executor": "Run",
     "JavaScript Debug.practice4-5.html.executor": "Run",
     "JavaScript Debug.practice9-2.html.executor": "Run",
+    "Node.js.Unnamed.executor": "Run",
+    "Node.js.webserver1.js.executor": "Run",
+    "Node.js.webserver2.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/clarice/Desktop/project/webp",
+    "last_opened_file_path": "/home/clarice/Desktop/project/webp/webserver1.js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="webserver1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="webserver1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -118,7 +159,9 @@
       <updated>1730080199968</updated>
       <workItem from="1730080202729" duration="1669000" />
       <workItem from="1730091769731" duration="51000" />
-      <workItem from="1730685627613" duration="1654000" />
+      <workItem from="1730685627613" duration="2576000" />
+      <workItem from="1730695946521" duration="16000" />
+      <workItem from="1732498763100" duration="3018000" />
     </task>
     <servers />
   </component>
