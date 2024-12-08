@@ -1,1 +1,88 @@
+# Web Programming 실습 코드 모음
 
+- week1.html
+- week2.html
+- week3.html
+- week4.html
+- ex12-1.html
+- ex13-9.html
+- ex13-10.html
+
+## 연습문제 풀이 목록(selfstudy 폴더)
+
+- Open Challenge 01
+- Open Challenge 02
+- Open Challenge 03
+- Open Challenge 04
+- Open Challenge 06
+- Open Challenge 07
+- practice1-1.html
+- practice1-2.html
+- practice1-3.html
+- practice1-4.html
+- practice2-1.html
+- practice2-2-1.html
+- practice2-2-2.html
+- practice2-3.html
+- practice2-4-2.html
+- practice2-5.html
+- practice2-6-sitelist.html
+- practice2-7.html
+- practice2-8.html
+- practice3-1.html
+- practice3-2.html
+- practice3-3.html
+- practice3-4.html
+- practice3-5.html
+- practice4-1.html
+- practice4-2.html
+- practice4-3.html
+- practice4-4.html
+- practice4-5.html
+- practice4-6.html
+- practice4-7.html
+- practice4-8.html
+- practice4-9.html
+- practice5-1-1.html
+- practice5-1-2.html
+- practice5-2.html
+- practice5-3.html
+- practice5-4-1.html
+- practice5-4-2.html
+- practice5-5.html
+- practice5-6-1.html
+- practice5-6-2.html
+- practice5-7.html
+- practice5-8.html
+- practice5-9.html
+- practice5-10.html
+- practice6-1.html
+- practice6-2.html
+- practice6-3-1.html
+- practice6-3-2.html
+- practice6-4.html
+- practice6-5.html
+- practice6-6-1.html
+- practice6-6-2.html
+- practice6-7.html
+- practice6-8.html
+- practice7-1.html
+- practice7-3.html
+- practice7-4.html
+- practice7-5.html
+- practice7-6.html
+- practice7-7.html
+- practice7-8.html
+- practice7-9-1.html
+- practice7-9-2.html
+- practice7-9-3.html
+- practice7-10.html
+- practice8-4.html
+- practice8-6.html
+- practice8-10.html
+- practice9-3.html
+- practice9-6.html
+- practice9-10.html
+- practice10-5.html
+- practice10-6.html
+- practice13-6.html
